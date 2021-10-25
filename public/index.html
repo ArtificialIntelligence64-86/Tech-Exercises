@@ -49,20 +49,43 @@
       #red {
         color:rgb(255,0,0);
       }
+      
+      .Button {
+        background-color:bisque;
+        color:rgb(255, 123, 0);
+        padding: 30px 50px;
+        /*min-height: 30vmin;
+        min-width: 50vmin;*/
+        border-radius: 30px;
+        outline: 7px solid rgb(255, 123, 0); 
+        /*outline-style: dotted;
+        outline-color:rgb(255, 123, 0);
+        outline-width: 3px;
+        box-shadow: 100;*/
+        margin-left: 100px;
+        margin-top: 50px;
 
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
 
     </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <h1>Science Olympiad</h1>
-    <img src="https://www.illinoisolympiad.org/uploads/5/6/0/1/56012869/editor/state-tourney-cropped.jpg?1602899430" alt="Science Olympiad">
+    <h1 style="text-align:center">Science Olympiad</h1>
+    <img src="https://www.illinoisolympiad.org/uploads/5/6/0/1/56012869/editor/state-tourney-cropped.jpg?1602899430" alt="Science Olympiad" class="center">
 
-    <h2>Illinois State Science Olympiad
+    <h2 style="text-align:center">Illinois State Science Olympiad
       <div id="like_button_container"></div>
     </h2>
-    <h3>List of Events</h3>
+    <h3 style="text-align:center">List of Events</h3>
     
     <table>
       <thead>
@@ -88,7 +111,8 @@
           <td></td>
           <td>Bridges</td>
           <td></td>
-          <td>Codebusters</td>
+          <td>How to Properly F*ck Simon</td>
+          
         </tr>
 
         <tr>
@@ -145,6 +169,19 @@
         </tr>
       </tbody>
     </table>
+
+    <script>
+      function clickMe(){
+        alert('You clicked me!');
+      }
+
+    </script>
+
+    <div>
+      <button class="Button" onClick="clickMe()">
+        Button
+      </button>
+    </div>
 
     <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
