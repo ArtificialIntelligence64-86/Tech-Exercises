@@ -1,0 +1,29 @@
+body {
+    background-color:#ffffff;
+    text-align: center;
+  }
+
+#green {
+    color:rgb(0,255,0);
+}
+
+#blue {
+    color:rgb(0, 26, 255);
+}
+
+#orange {
+    color:rgb(255, 123, 0);
+}
+
+#purple {
+    color:rgb(174, 0, 255);
+}
+
+#red {
+    color:rgb(255,0,0);
+}
+
+.events {
+    margin-left: auto;
+    margin-right: auto;
+}
