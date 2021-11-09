@@ -1,5 +1,5 @@
 body {
-    background-color:#00ff00;
+    background-color:#6699cc;
     text-align: center;
   }
 
@@ -12,7 +12,7 @@ body {
 }
 
 .Button {
-    background-color:rgb(255, 123, 0);
+    background-color: #808080;
     color: #ffffff;
     min-height: 10vmin;
     min-width: 30vmin;
