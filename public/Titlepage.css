@@ -1,0 +1,51 @@
+body {
+  background-color: #ffffe0;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.topnav {
+  background-color: #808080;
+  overflow: hidden;
+}
+
+.topnav button {
+  background-color: #808080;
+  color: #ffffff;
+  min-height: 10vmin;
+  min-width: 30vmin;
+  font-size: 36px;
+  position: absolute;
+}
+
+.topnav button.home {
+  margin-top: -100px;
+  margin-left: -640px;
+}
+
+.topnav button.events {
+  margin-top: -100px;
+  margin-left: -458px;
+}
+
+.topnav button.signup {
+  margin-top: -100px;
+  margin-left: -276px;
+}
+
+.topnav button.login {
+  margin-top: -100px;
+  margin-left: -94px;
+}
+
+.topnav button:hover {
+  background-color: #ffffff;
+  color: #808080;
+}

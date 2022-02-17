@@ -1,0 +1,69 @@
+body {
+  background-color: #ffffe0;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#green {
+  color: rgb(0, 255, 0);
+}
+
+#blue {
+  color: rgb(0, 26, 255);
+}
+
+#orange {
+  color: rgb(255, 123, 0);
+}
+
+#purple {
+  color: rgb(174, 0, 255);
+}
+
+#red {
+  color: rgb(255, 0, 0);
+}
+
+.events {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav {
+  background-color: #808080;
+  overflow: hidden;
+}
+
+.topnav button {
+  background-color: #808080;
+  color: #ffffff;
+  min-height: 10vmin;
+  min-width: 30vmin;
+  font-size: 36px;
+  position: absolute;
+}
+
+.topnav button.home {
+  margin-top: -100px;
+  margin-left: -640px;
+}
+
+.topnav button.events {
+  margin-top: -100px;
+  margin-left: -458px;
+}
+
+.topnav button.signup {
+  margin-top: -100px;
+  margin-left: -276px;
+}
+
+.topnav button.login {
+  margin-top: -100px;
+  margin-left: -94px;
+}
+
+.topnav button:hover {
+  background-color: #ffffff;
+  color: #808080;
+}

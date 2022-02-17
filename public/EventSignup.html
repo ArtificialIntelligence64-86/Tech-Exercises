@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/jpg" href="%PUBLIC_URL%/ISO.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/ISO.jpg" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="Signupform.css" />
+
+    <title>Event Signup</title>
+  </head>
+
+  <body>
+    <div class="topnav">
+      <div>
+        <button class="home" onClick="window.location.href='/index.html'">
+          Home
+        </button>
+
+        <button class="events" onClick="window.location.href='/events.html'">
+          Events
+        </button>
+
+        <button class="login" onClick="window.location.href='/login.html'">
+          Login
+        </button>
+
+        <button
+          class="signup"
+          onClick="window.location.href='/EventSignup.html'"
+        >
+          Signup
+        </button>
+      </div>
+    </div>
+
+    <h1>Personal Information</h1>
+
+    <form action="connect.php" method="post">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h3></h3>
+
+    <form action="connect.php" method="post">
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h3></h3>
+
+    <form action="connect.php" method="post">
+      <label for="email">Email</label>
+      <input type="text" id="email" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h1>Events</h1>
+
+    <form action="connect.php" method="post">
+      <label for="aBlock">Block A</label>
+      <select name="languages" id="lang">
+        <option value="dash">--</option>
+        <option value="Codebusters">Codebusters</option>
+        <option value="Dynamic Planet">Dynamic Planet</option>
+        <option value="Ornithology">Ornithology</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h3></h3>
+
+    <form action="connect.php" method="post">
+      <label for="bBlock">Block B</label>
+      <select name="languages" id="lang">
+        <option value="dash">--</option>
+        <option value="Disease Detectives">Disease Detectives</option>
+        <option value="It's About Time">It's About Time</option>
+        <option value="Remote Sensing">Remote Sensing</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h3></h3>
+
+    <form action="connect.php" method="post">
+      <label for="cBlock">Block C</label>
+      <select name="languages" id="lang">
+        <option value="dash">--</option>
+        <option value="Detector Building">Detector Building</option>
+        <option value="Green Generation">Green Generation</option>
+        <option value="Rocks and Minerals">Rocks and Minerals</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h3></h3>
+
+    <form action="connect.php" method="post">
+      <label for="dBlock">Block D</label>
+      <select name="languages" id="lang">
+        <option value="dash">--</option>
+        <option value="Chemistry Lab">Chemistry Lab</option>
+        <option value="Wi-fi Lab">Wi-Fi Lab</option>
+        <option value="Write It, Do It">Write It, Do It</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h3></h3>
+
+    <form action="connect.php" method="post">
+      <label for="eBlock">Block E</label>
+      <select name="languages" id="lang">
+        <option value="dash">--</option>
+        <option value="Cell Biology">Cell Biology</option>
+        <option value="Experimental Design">Experimental Design</option>
+        <option value="Forensics">Forensics</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h3></h3>
+
+    <form action="connect.php" method="post">
+      <label for="fBlock">Block F</label>
+      <select name="languages" id="lang">
+        <option value="dash">--</option>
+        <option value="Anatomy & Physiology">Anatomy & Physiology</option>
+        <option value="Astronomy">Astronomy</option>
+        <option value="Environmental Chemistry">Environmental Chemistry</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h3></h3>
+
+    <form action="connect.php" method="post">
+      <label for="builds">Builds</label>
+      <select name="languages" id="lang">
+        <option value="dash">--</option>
+        <option value="Bridges">Bridges</option>
+        <option value="Gravity Vehicle">Gravity Vehicle</option>
+        <option value="Ping Pong Parachute">Ping Pong Parachute</option>
+        <option value="Trajectory">Trajectory</option>
+        <option value="Wright Stuff">Wright Stuff</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

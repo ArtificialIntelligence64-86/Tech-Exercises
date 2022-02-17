@@ -3,20 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/jpg" href="%PUBLIC_URL%/ISO.jpg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#ffffff" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/ISO.jpg" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="stylesheet" href="../src/Titlepage.css" />
+    <link rel="stylesheet" href="Titlepage.css" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -32,6 +31,80 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <!--The topnav class is fo the top navigation bar.-->
     <div id="root"></div>
+
+    <div class="topnav">
+      <div>
+        <button class="home" onClick="window.location.href='/index.html'">
+          Home
+        </button>
+
+        <button class="events" onClick="window.location.href='/events.html'">
+          Events
+        </button>
+
+        <button class="login" onClick="window.location.href='/login.html'">
+          Login
+        </button>
+
+        <button class="signup" onClick="window.location.href='/EventSignup.html'">
+          Signup
+        </button>
+        
+      </div>
+    </div>
+
+    <h1 id="title">Science Olympiad</h1>
+    <img
+      src="https://www.illinoisolympiad.org/uploads/5/6/0/1/56012869/editor/state-tourney-cropped.jpg?1602899430"
+      alt="Science Olympiad"
+      id="picture"
+    ></img>
+
+    <h2>Illinois State Science Olympiad</h2>
+
+    <strong>
+      Founded in 1984, Science Olympiad is one of the premiere science
+      competitions in the nation, providing standards-based challenges to
+      nearly 5,000 teams at 375 live and remote tournaments in all 50 states
+      last year. There are 23 events ranging from core knowledge, builds,
+      labs, and hybrids.
+    </strong>
+
+    <h1></h1>
+
+    <strong>
+      Core Knowledge Event: An event where participants are given a set of topics
+      that they are expected to research and master the factual content. Mastery is
+      demonstrated at a tournament by taking a paper-pencil, station, and/or computer test.
+    </strong>
+
+    <h3></h3>
+
+    <strong>
+      Build Event: An event where participants are given some specifications about a device
+      or object they are expected to design, create, and test in advance of the tournament.
+      The devices or objects are often modified on site to account for an unknown parameter
+      prior to testing or evaluation.
+    </strong>
+
+    <h3></h3>
+
+    <strong>
+      Lab Event: An event where participants are given a general topic in which they will
+      be expected to deepen their content knowledge of the topic and associated research
+      techniques prior to the tournament. At the tournament they will be assessed by the
+      competition of a hands-on task, which may or may not require a written report, within
+      a defined timeframe.
+    </strong>
+
+    <h3></h3>
+
+    <strong>
+      Hybrid Event: An event which combines elements from two or more of the above event types.
+      The most common combination mixes elements of a Core Knowledge Event with elements of a Build
+      or Lab Event.
+    </strong>
+
 
     <script
       src="https://unpkg.com/react@17/umd/react.development.js"
